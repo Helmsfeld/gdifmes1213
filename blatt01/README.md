@@ -1,4 +1,4 @@
-gcc1
+gcd1
 ====
 
 Compiled with
