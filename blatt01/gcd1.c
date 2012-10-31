@@ -48,7 +48,7 @@ int gcd (int p, int q)
 
 int main(void)
 {
-  /* We call function gcd with these values es required. */
+  /* We call function gcd with these values as required. */
   printf ("%d\n", gcd (142, 18));
   printf ("%d\n", gcd (969, 627));
   printf ("%d\n", gcd (1071, 1029));
