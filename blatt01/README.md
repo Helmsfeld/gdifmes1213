@@ -2,4 +2,4 @@ gcc1
 ====
 
 Compiled with
-	$ gcc -Wall -o gcc1 gcc1.c
+	$ gcc -ansi -pedantic -Wall -o gcd1 gcd1.c
