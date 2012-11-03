@@ -30,7 +30,8 @@ int main(void)
     return 0;
 }
 
-/*  */
+/* Compute and return the greatest common divisor (gcd) of two
+ * positive integers using the euclidean algorithm. */
 int gcd(int a, int b)
 {
     /* Remainder of integral division */
