@@ -1,0 +1,46 @@
+<html>
+<HEAD>
+<TITLE>Buchstaben z&auml;hlen</title>
+</head>
+<BODY bgcolor="white">
+<font color="#0000FF">
+<H2>Aufgabe</h2>
+</font>
+<P align="justify">
+Schreiben Sie ein Programm, das einen ASCII-Text einliest und die h&auml;ufigsten
+sichtbaren Zeichen bestimmt. Geben Sie diese zusammen mit ihrer H&auml;ufigkeit wie
+unten beschrieben aus. Newline, Leerzeichen etc. sollen dabei nicht
+ber&uuml;cksichtigt werden. Unterscheiden Sie zwischen Gro&szlig;- und Kleinschreibung.
+</P>
+<font color="#0000FF">
+<H2>Input</h2>
+</font>
+Die Eingabe erfolgt &uuml;ber die Standardeingabe, besteht aus einer beliebig
+langen, nicht leeren Folge von ASCII-Zeichen und wird durch EOF abgeschlossen.
+<br/>
+<i>Beispiel 1</i>
+<pre>  aaa
+  bbb
+  cc</pre> 
+<i>Beispiel 2</i>
+<pre>  Dies ist ein kurzer Text,
+  der aus 54 sichtbaren Zeichen besteht.</pre>
+
+<font color="#0000FF">
+<H2>Output</h2>
+</font>
+Die Ausgabe besteht aus einer durch Newline abgeschlossenen Zeile der Form
+<pre>  Zeichen_1[,Zeichen_2. . . [,Zeichen_n]]:Anzahl</pre>
+Dabei sind <code>Zeichen_1</code>,...,<code>Zeichen_n</code> die n h&auml;ufigsten,
+n&auml;mlich <code>Anzahl</code> mal vorkommenden Zeichen, aufsteigend in der Reihenfolge
+sortiert, in der sie in der ASCII-Tabelle auftreten.
+<br/>
+<i>Beispiel 1</i>
+<pre>  a,b:3</pre>
+<i>Beispiel 2</i>
+<pre> e:10</pre>
+
+<BODY>
+</html>
+
+
